@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92E520AA271DC4EE00C5B960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E520A9271DC4EE00C5B960 /* AppDelegate.swift */; };
+		92E520AC271DC4EE00C5B960 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E520AB271DC4EE00C5B960 /* SceneDelegate.swift */; };
+		92E520AE271DC4EE00C5B960 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E520AD271DC4EE00C5B960 /* LoginVC.swift */; };
+		92E520B1271DC4EE00C5B960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E520AF271DC4EE00C5B960 /* Main.storyboard */; };
+		92E520B4271DC4EE00C5B960 /* CoolMessenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92E520B2271DC4EE00C5B960 /* CoolMessenger.xcdatamodeld */; };
+		92E520B6271DC4F300C5B960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E520B5271DC4F300C5B960 /* Assets.xcassets */; };
+		92E520B9271DC4F300C5B960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E520B7271DC4F300C5B960 /* LaunchScreen.storyboard */; };
+		92E520C4271DC4F300C5B960 /* CoolMessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E520C3271DC4F300C5B960 /* CoolMessengerTests.swift */; };
+		92E520CE271DC4F300C5B960 /* CoolMessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E520CD271DC4F300C5B960 /* CoolMessengerUITests.swift */; };
+		92E520D0271DC4F300C5B960 /* CoolMessengerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E520CF271DC4F300C5B960 /* CoolMessengerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92E520C0271DC4F300C5B960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92E5209E271DC4EE00C5B960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92E520A5271DC4EE00C5B960;
+			remoteInfo = CoolMessenger;
+		};
+		92E520CA271DC4F300C5B960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92E5209E271DC4EE00C5B960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92E520A5271DC4EE00C5B960;
+			remoteInfo = CoolMessenger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92E520A6271DC4EE00C5B960 /* CoolMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E520A9271DC4EE00C5B960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92E520AB271DC4EE00C5B960 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92E520AD271DC4EE00C5B960 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		92E520B0271DC4EE00C5B960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92E520B3271DC4EE00C5B960 /* CoolMessenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoolMessenger.xcdatamodel; sourceTree = "<group>"; };
+		92E520B5271DC4F300C5B960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92E520B8271DC4F300C5B960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92E520BA271DC4F300C5B960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92E520BF271DC4F300C5B960 /* CoolMessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolMessengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E520C3271DC4F300C5B960 /* CoolMessengerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolMessengerTests.swift; sourceTree = "<group>"; };
+		92E520C9271DC4F300C5B960 /* CoolMessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolMessengerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E520CD271DC4F300C5B960 /* CoolMessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolMessengerUITests.swift; sourceTree = "<group>"; };
+		92E520CF271DC4F300C5B960 /* CoolMessengerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolMessengerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92E520A3271DC4EE00C5B960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E520BC271DC4F300C5B960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E520C6271DC4F300C5B960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92E5209D271DC4EE00C5B960 = {
+			isa = PBXGroup;
+			children = (
+				92E520A8271DC4EE00C5B960 /* CoolMessenger */,
+				92E520C2271DC4F300C5B960 /* CoolMessengerTests */,
+				92E520CC271DC4F300C5B960 /* CoolMessengerUITests */,
+				92E520A7271DC4EE00C5B960 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92E520A7271DC4EE00C5B960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92E520A6271DC4EE00C5B960 /* CoolMessenger.app */,
+				92E520BF271DC4F300C5B960 /* CoolMessengerTests.xctest */,
+				92E520C9271DC4F300C5B960 /* CoolMessengerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92E520A8271DC4EE00C5B960 /* CoolMessenger */ = {
+			isa = PBXGroup;
+			children = (
+				92E520DD271DCFF300C5B960 /* RegistrationControllers */,
+				92E520DC271DCFDE00C5B960 /* MainFlow */,
+				92E520A9271DC4EE00C5B960 /* AppDelegate.swift */,
+				92E520AB271DC4EE00C5B960 /* SceneDelegate.swift */,
+				92E520B5271DC4F300C5B960 /* Assets.xcassets */,
+				92E520B7271DC4F300C5B960 /* LaunchScreen.storyboard */,
+				92E520BA271DC4F300C5B960 /* Info.plist */,
+				92E520B2271DC4EE00C5B960 /* CoolMessenger.xcdatamodeld */,
+			);
+			path = CoolMessenger;
+			sourceTree = "<group>";
+		};
+		92E520C2271DC4F300C5B960 /* CoolMessengerTests */ = {
+			isa = PBXGroup;
+			children = (
+				92E520C3271DC4F300C5B960 /* CoolMessengerTests.swift */,
+			);
+			path = CoolMessengerTests;
+			sourceTree = "<group>";
+		};
+		92E520CC271DC4F300C5B960 /* CoolMessengerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92E520CD271DC4F300C5B960 /* CoolMessengerUITests.swift */,
+				92E520CF271DC4F300C5B960 /* CoolMessengerUITestsLaunchTests.swift */,
+			);
+			path = CoolMessengerUITests;
+			sourceTree = "<group>";
+		};
+		92E520DC271DCFDE00C5B960 /* MainFlow */ = {
+			isa = PBXGroup;
+			children = (
+				92E520AF271DC4EE00C5B960 /* Main.storyboard */,
+			);
+			path = MainFlow;
+			sourceTree = "<group>";
+		};
+		92E520DD271DCFF300C5B960 /* RegistrationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				92E520AD271DC4EE00C5B960 /* LoginVC.swift */,
+			);
+			path = RegistrationControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92E520A5271DC4EE00C5B960 /* CoolMessenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E520D3271DC4F300C5B960 /* Build configuration list for PBXNativeTarget "CoolMessenger" */;
+			buildPhases = (
+				92E520A2271DC4EE00C5B960 /* Sources */,
+				92E520A3271DC4EE00C5B960 /* Frameworks */,
+				92E520A4271DC4EE00C5B960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolMessenger;
+			productName = CoolMessenger;
+			productReference = 92E520A6271DC4EE00C5B960 /* CoolMessenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92E520BE271DC4F300C5B960 /* CoolMessengerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E520D6271DC4F300C5B960 /* Build configuration list for PBXNativeTarget "CoolMessengerTests" */;
+			buildPhases = (
+				92E520BB271DC4F300C5B960 /* Sources */,
+				92E520BC271DC4F300C5B960 /* Frameworks */,
+				92E520BD271DC4F300C5B960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92E520C1271DC4F300C5B960 /* PBXTargetDependency */,
+			);
+			name = CoolMessengerTests;
+			productName = CoolMessengerTests;
+			productReference = 92E520BF271DC4F300C5B960 /* CoolMessengerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92E520C8271DC4F300C5B960 /* CoolMessengerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E520D9271DC4F300C5B960 /* Build configuration list for PBXNativeTarget "CoolMessengerUITests" */;
+			buildPhases = (
+				92E520C5271DC4F300C5B960 /* Sources */,
+				92E520C6271DC4F300C5B960 /* Frameworks */,
+				92E520C7271DC4F300C5B960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92E520CB271DC4F300C5B960 /* PBXTargetDependency */,
+			);
+			name = CoolMessengerUITests;
+			productName = CoolMessengerUITests;
+			productReference = 92E520C9271DC4F300C5B960 /* CoolMessengerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92E5209E271DC4EE00C5B960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					92E520A5271DC4EE00C5B960 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					92E520BE271DC4F300C5B960 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 92E520A5271DC4EE00C5B960;
+					};
+					92E520C8271DC4F300C5B960 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 92E520A5271DC4EE00C5B960;
+					};
+				};
+			};
+			buildConfigurationList = 92E520A1271DC4EE00C5B960 /* Build configuration list for PBXProject "CoolMessenger" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92E5209D271DC4EE00C5B960;
+			productRefGroup = 92E520A7271DC4EE00C5B960 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92E520A5271DC4EE00C5B960 /* CoolMessenger */,
+				92E520BE271DC4F300C5B960 /* CoolMessengerTests */,
+				92E520C8271DC4F300C5B960 /* CoolMessengerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92E520A4271DC4EE00C5B960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E520B9271DC4F300C5B960 /* LaunchScreen.storyboard in Resources */,
+				92E520B6271DC4F300C5B960 /* Assets.xcassets in Resources */,
+				92E520B1271DC4EE00C5B960 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E520BD271DC4F300C5B960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E520C7271DC4F300C5B960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92E520A2271DC4EE00C5B960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E520B4271DC4EE00C5B960 /* CoolMessenger.xcdatamodeld in Sources */,
+				92E520AE271DC4EE00C5B960 /* LoginVC.swift in Sources */,
+				92E520AA271DC4EE00C5B960 /* AppDelegate.swift in Sources */,
+				92E520AC271DC4EE00C5B960 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E520BB271DC4F300C5B960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E520C4271DC4F300C5B960 /* CoolMessengerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E520C5271DC4F300C5B960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E520CE271DC4F300C5B960 /* CoolMessengerUITests.swift in Sources */,
+				92E520D0271DC4F300C5B960 /* CoolMessengerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92E520C1271DC4F300C5B960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92E520A5271DC4EE00C5B960 /* CoolMessenger */;
+			targetProxy = 92E520C0271DC4F300C5B960 /* PBXContainerItemProxy */;
+		};
+		92E520CB271DC4F300C5B960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92E520A5271DC4EE00C5B960 /* CoolMessenger */;
+			targetProxy = 92E520CA271DC4F300C5B960 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92E520AF271DC4EE00C5B960 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92E520B0271DC4EE00C5B960 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92E520B7271DC4F300C5B960 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92E520B8271DC4F300C5B960 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92E520D1271DC4F300C5B960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92E520D2271DC4F300C5B960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92E520D4271DC4F300C5B960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7UD2B87FG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoolMessenger/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sergievich.CoolMessenger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92E520D5271DC4F300C5B960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7UD2B87FG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoolMessenger/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sergievich.CoolMessenger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92E520D7271DC4F300C5B960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7UD2B87FG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sergievich.CoolMessengerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolMessenger.app/CoolMessenger";
+			};
+			name = Debug;
+		};
+		92E520D8271DC4F300C5B960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7UD2B87FG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sergievich.CoolMessengerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolMessenger.app/CoolMessenger";
+			};
+			name = Release;
+		};
+		92E520DA271DC4F300C5B960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7UD2B87FG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sergievich.CoolMessengerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoolMessenger;
+			};
+			name = Debug;
+		};
+		92E520DB271DC4F300C5B960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7UD2B87FG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sergievich.CoolMessengerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoolMessenger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92E520A1271DC4EE00C5B960 /* Build configuration list for PBXProject "CoolMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E520D1271DC4F300C5B960 /* Debug */,
+				92E520D2271DC4F300C5B960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92E520D3271DC4F300C5B960 /* Build configuration list for PBXNativeTarget "CoolMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E520D4271DC4F300C5B960 /* Debug */,
+				92E520D5271DC4F300C5B960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92E520D6271DC4F300C5B960 /* Build configuration list for PBXNativeTarget "CoolMessengerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E520D7271DC4F300C5B960 /* Debug */,
+				92E520D8271DC4F300C5B960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92E520D9271DC4F300C5B960 /* Build configuration list for PBXNativeTarget "CoolMessengerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E520DA271DC4F300C5B960 /* Debug */,
+				92E520DB271DC4F300C5B960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92E520B2271DC4EE00C5B960 /* CoolMessenger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92E520B3271DC4EE00C5B960 /* CoolMessenger.xcdatamodel */,
+			);
+			currentVersion = 92E520B3271DC4EE00C5B960 /* CoolMessenger.xcdatamodel */;
+			path = CoolMessenger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92E5209E271DC4EE00C5B960 /* Project object */;
+}
