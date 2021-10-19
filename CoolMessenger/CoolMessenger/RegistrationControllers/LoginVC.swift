@@ -6,14 +6,36 @@
 //
 
 import UIKit
+import SwiftUI
 
-class ViewController: UIViewController {
+class LoginVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
+        view.backgroundColor = .green
     }
 
 
 }
 
+
+struct VCProwider: PreviewProvider {
+    static var prewies: some View{
+        
+    }
+    
+    struct ContainerView:
+        
+        let controller = LoginVC()
+                                
+        UIViewControllerRepresentable{
+            func makeUIViewController(){}
+        }
+        
+        func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
+            <#code#>
+        }
+    }
+}
