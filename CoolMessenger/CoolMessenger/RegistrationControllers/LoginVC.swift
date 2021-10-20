@@ -21,21 +21,20 @@ class LoginVC: UIViewController {
 }
 
 
-struct VCProwider: PreviewProvider {
-    static var prewies: some View{
-        
+struct ViewControllerProvider: PreviewProvider{
+    static var previews: some View{
+        ContainerView()
     }
     
-    struct ContainerView:
+    struct ContainerView: UIViewControllerRepresentable{
+        let viewCintroller = LoginVC()
         
-        let controller = LoginVC()
-                                
-        UIViewControllerRepresentable{
-            func makeUIViewController(){}
+        func makeUIViewController(context: UIViewControllerRepresentableContext<ViewControllerProvider.ContainerView>) -> LoginVC {
+            return viewCintroller
         }
         
-        func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
-            <#code#>
+        func updateUIViewController(_ uiViewController: ViewControllerProvider.ContainerView.UIViewControllerType, context: UIViewControllerRepresentableContext<ViewControllerProvider.ContainerView>) {
+            
         }
     }
 }
