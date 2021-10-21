@@ -14,7 +14,7 @@ extension UIButton {
                      titleColot: UIColor,
                      title: String,
                      isShadow: Bool,
-                     font:  UIFont? = .avanir20(),
+                     font:  UIFont? = .avenir20(),
                      cornerRadius: CGFloat = 4) {
         self.init(type: .system)
         

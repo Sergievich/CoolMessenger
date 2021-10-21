@@ -27,7 +27,6 @@ class LoginVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .gray
         logoImage.frame = CGRect(x: 0, y: 0, width: 50, height: screenSize.height * 0.2)
         setupConstraints()
         view.backgroundColor = .systemCyan
