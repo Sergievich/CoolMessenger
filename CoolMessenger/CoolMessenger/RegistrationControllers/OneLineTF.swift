@@ -16,7 +16,7 @@ class OneLineTF: UITextField{
         self.translatesAutoresizingMaskIntoConstraints = false
         
         
-        var bottonView = UIView.init(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
+        let bottonView = UIView.init(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
         bottonView.backgroundColor = .darkGray
         self.addSubview(bottonView)
         bottonView.translatesAutoresizingMaskIntoConstraints = false 

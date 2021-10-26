@@ -12,9 +12,10 @@
 		922C345E27205EAE00DA7213 /* ViewBtnStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922C345D27205EAE00DA7213 /* ViewBtnStack.swift */; };
 		9246FA5227218E2B0090C8D5 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246FA5127218E2B0090C8D5 /* SignUpVC.swift */; };
 		9246FA542721A8CB0090C8D5 /* OneLineTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246FA532721A8CB0090C8D5 /* OneLineTF.swift */; };
+		9246FA5827283E4F0090C8D5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246FA5727283E4F0090C8D5 /* LoginVC.swift */; };
 		92E520AA271DC4EE00C5B960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E520A9271DC4EE00C5B960 /* AppDelegate.swift */; };
 		92E520AC271DC4EE00C5B960 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E520AB271DC4EE00C5B960 /* SceneDelegate.swift */; };
-		92E520AE271DC4EE00C5B960 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E520AD271DC4EE00C5B960 /* LoginVC.swift */; };
+		92E520AE271DC4EE00C5B960 /* HelloVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E520AD271DC4EE00C5B960 /* HelloVC.swift */; };
 		92E520B4271DC4EE00C5B960 /* CoolMessenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92E520B2271DC4EE00C5B960 /* CoolMessenger.xcdatamodeld */; };
 		92E520B6271DC4F300C5B960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E520B5271DC4F300C5B960 /* Assets.xcassets */; };
 		92E520B9271DC4F300C5B960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E520B7271DC4F300C5B960 /* LaunchScreen.storyboard */; };
@@ -48,10 +49,11 @@
 		922C345D27205EAE00DA7213 /* ViewBtnStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBtnStack.swift; sourceTree = "<group>"; };
 		9246FA5127218E2B0090C8D5 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		9246FA532721A8CB0090C8D5 /* OneLineTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTF.swift; sourceTree = "<group>"; };
+		9246FA5727283E4F0090C8D5 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		92E520A6271DC4EE00C5B960 /* CoolMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E520A9271DC4EE00C5B960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92E520AB271DC4EE00C5B960 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		92E520AD271DC4EE00C5B960 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		92E520AD271DC4EE00C5B960 /* HelloVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVC.swift; sourceTree = "<group>"; };
 		92E520B3271DC4EE00C5B960 /* CoolMessenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoolMessenger.xcdatamodel; sourceTree = "<group>"; };
 		92E520B5271DC4F300C5B960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92E520B8271DC4F300C5B960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -165,9 +167,10 @@
 		92E520DD271DCFF300C5B960 /* RegistrationControllers */ = {
 			isa = PBXGroup;
 			children = (
-				92E520AD271DC4EE00C5B960 /* LoginVC.swift */,
+				92E520AD271DC4EE00C5B960 /* HelloVC.swift */,
 				9246FA5127218E2B0090C8D5 /* SignUpVC.swift */,
 				9246FA532721A8CB0090C8D5 /* OneLineTF.swift */,
+				9246FA5727283E4F0090C8D5 /* LoginVC.swift */,
 			);
 			path = RegistrationControllers;
 			sourceTree = "<group>";
@@ -312,9 +315,10 @@
 			files = (
 				92E520E327202F9C00C5B960 /* UILabelSettings.swift in Sources */,
 				92E520B4271DC4EE00C5B960 /* CoolMessenger.xcdatamodeld in Sources */,
+				9246FA5827283E4F0090C8D5 /* LoginVC.swift in Sources */,
 				922C345B272043B700DA7213 /* UIImageSettings.swift in Sources */,
 				922C3459272043A800DA7213 /* UIFontSettings.swift in Sources */,
-				92E520AE271DC4EE00C5B960 /* LoginVC.swift in Sources */,
+				92E520AE271DC4EE00C5B960 /* HelloVC.swift in Sources */,
 				92E520DF272027CD00C5B960 /* UIBtnSettings.swift in Sources */,
 				92E520AA271DC4EE00C5B960 /* AppDelegate.swift in Sources */,
 				922C345E27205EAE00DA7213 /* ViewBtnStack.swift in Sources */,
