@@ -13,6 +13,7 @@
 		9246FA5227218E2B0090C8D5 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246FA5127218E2B0090C8D5 /* SignUpVC.swift */; };
 		9246FA542721A8CB0090C8D5 /* OneLineTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246FA532721A8CB0090C8D5 /* OneLineTF.swift */; };
 		9246FA5827283E4F0090C8D5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246FA5727283E4F0090C8D5 /* LoginVC.swift */; };
+		9246FA5A27286CDB0090C8D5 /* SetupProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246FA5927286CDB0090C8D5 /* SetupProfileVC.swift */; };
 		92E520AA271DC4EE00C5B960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E520A9271DC4EE00C5B960 /* AppDelegate.swift */; };
 		92E520AC271DC4EE00C5B960 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E520AB271DC4EE00C5B960 /* SceneDelegate.swift */; };
 		92E520AE271DC4EE00C5B960 /* HelloVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E520AD271DC4EE00C5B960 /* HelloVC.swift */; };
@@ -50,6 +51,7 @@
 		9246FA5127218E2B0090C8D5 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		9246FA532721A8CB0090C8D5 /* OneLineTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTF.swift; sourceTree = "<group>"; };
 		9246FA5727283E4F0090C8D5 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		9246FA5927286CDB0090C8D5 /* SetupProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfileVC.swift; sourceTree = "<group>"; };
 		92E520A6271DC4EE00C5B960 /* CoolMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E520A9271DC4EE00C5B960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92E520AB271DC4EE00C5B960 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				9246FA5127218E2B0090C8D5 /* SignUpVC.swift */,
 				9246FA532721A8CB0090C8D5 /* OneLineTF.swift */,
 				9246FA5727283E4F0090C8D5 /* LoginVC.swift */,
+				9246FA5927286CDB0090C8D5 /* SetupProfileVC.swift */,
 			);
 			path = RegistrationControllers;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				92E520B4271DC4EE00C5B960 /* CoolMessenger.xcdatamodeld in Sources */,
 				9246FA5827283E4F0090C8D5 /* LoginVC.swift in Sources */,
 				922C345B272043B700DA7213 /* UIImageSettings.swift in Sources */,
+				9246FA5A27286CDB0090C8D5 /* SetupProfileVC.swift in Sources */,
 				922C3459272043A800DA7213 /* UIFontSettings.swift in Sources */,
 				92E520AE271DC4EE00C5B960 /* HelloVC.swift in Sources */,
 				92E520DF272027CD00C5B960 /* UIBtnSettings.swift in Sources */,
