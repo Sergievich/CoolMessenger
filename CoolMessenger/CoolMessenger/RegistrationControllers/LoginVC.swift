@@ -36,6 +36,7 @@ class LoginVC: UIViewController{
         registerBtn.setTitle("Register", for: .normal)
         registerBtn.setTitleColor(.red, for: .normal)
         googlenBtn.customGoogleBtn()
+        passwordTF.isSecureTextEntry = true
         
         setupConstraints()
     }

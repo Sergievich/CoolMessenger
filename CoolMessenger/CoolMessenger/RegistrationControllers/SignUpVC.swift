@@ -34,6 +34,9 @@ class SignUpVC: UIViewController {
         view.backgroundColor = .systemCyan
         loginBtn.titleLabel?.font = .avenir20() 
         setupConstraints()
+        passwordTF.isSecureTextEntry = true
+        confirmPassTF.isSecureTextEntry = true
+        
         
     }
     
