@@ -35,6 +35,7 @@ class LoginVC: UIViewController{
         registerBtn.titleLabel?.font = .avenir20()
         registerBtn.setTitle("Register", for: .normal)
         registerBtn.setTitleColor(.red, for: .normal)
+     //   googlenBtn.customGoogleBtn()
         
         setupConstraints()
     }

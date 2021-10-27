@@ -19,7 +19,7 @@ class HelloVC: UIViewController {
     let emailLbl = UILabel(text: "Get started with")
     let alreduOnBoardLbl = UILabel(text: "Get started with")
     
-    let googleBtn = UIButton(backgoundColor: .white, titleColot: .black, title: "Google", isShadow: true)
+    let googleBtn = UIButton(backgoundColor: .white, titleColot: .black, title: "", isShadow: true)
     
     let emailBtn = UIButton(backgoundColor: .blue, titleColot: .white, title: "Email", isShadow: false)
     
@@ -30,6 +30,7 @@ class HelloVC: UIViewController {
         logoImage.frame = CGRect(x: 0, y: 0, width: 50, height: screenSize.height * 0.2)
         setupConstraints()
         view.backgroundColor = .systemCyan
+        googleBtn.customGoogleBtn()
       
     }
 

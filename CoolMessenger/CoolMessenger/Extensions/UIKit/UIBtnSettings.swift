@@ -33,8 +33,19 @@ extension UIButton {
         }
     }
     
+    
+    
     func customGoogleBtn(){
-        let googleLogo = UIImageView(
+        let googleLogo = UIImageView(image: #imageLiteral(resourceName: "Google_logo_png"), contentMode: .scaleAspectFit)
+        googleLogo.translatesAutoresizingMaskIntoConstraints = false
+        self.addSubview(googleLogo)
+        NSLayoutConstraint.activate([
+            googleLogo.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 5),
+            googleLogo.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -5),
+            googleLogo.topAnchor.constraint(equalTo: self.topAnchor, constant: -40),
+            googleLogo.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: 50),
+            googleLogo.centerYAnchor.constraint(equalTo: self.centerYAnchor)
+        ])
     }
     
 }

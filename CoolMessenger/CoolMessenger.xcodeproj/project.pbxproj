@@ -14,6 +14,8 @@
 		9246FA542721A8CB0090C8D5 /* OneLineTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246FA532721A8CB0090C8D5 /* OneLineTF.swift */; };
 		9246FA5827283E4F0090C8D5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246FA5727283E4F0090C8D5 /* LoginVC.swift */; };
 		9246FA5A27286CDB0090C8D5 /* SetupProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246FA5927286CDB0090C8D5 /* SetupProfileVC.swift */; };
+		9246FA5C272945100090C8D5 /* AddPhotoView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246FA5B272945100090C8D5 /* AddPhotoView .swift */; };
+		9246FA5E27294DDF0090C8D5 /* UISegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246FA5D27294DDF0090C8D5 /* UISegmentedControl.swift */; };
 		92E520AA271DC4EE00C5B960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E520A9271DC4EE00C5B960 /* AppDelegate.swift */; };
 		92E520AC271DC4EE00C5B960 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E520AB271DC4EE00C5B960 /* SceneDelegate.swift */; };
 		92E520AE271DC4EE00C5B960 /* HelloVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E520AD271DC4EE00C5B960 /* HelloVC.swift */; };
@@ -52,6 +54,8 @@
 		9246FA532721A8CB0090C8D5 /* OneLineTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTF.swift; sourceTree = "<group>"; };
 		9246FA5727283E4F0090C8D5 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		9246FA5927286CDB0090C8D5 /* SetupProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfileVC.swift; sourceTree = "<group>"; };
+		9246FA5B272945100090C8D5 /* AddPhotoView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddPhotoView .swift"; sourceTree = "<group>"; };
+		9246FA5D27294DDF0090C8D5 /* UISegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISegmentedControl.swift; sourceTree = "<group>"; };
 		92E520A6271DC4EE00C5B960 /* CoolMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E520A9271DC4EE00C5B960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92E520AB271DC4EE00C5B960 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,10 +101,11 @@
 		922C345C27204A4200DA7213 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				92E520DE272027CC00C5B960 /* UIBtnSettings.swift */,
 				922C345A272043B700DA7213 /* UIImageSettings.swift */,
 				922C3458272043A800DA7213 /* UIFontSettings.swift */,
 				92E520E227202F9C00C5B960 /* UILabelSettings.swift */,
-				92E520DE272027CC00C5B960 /* UIBtnSettings.swift */,
+				9246FA5D27294DDF0090C8D5 /* UISegmentedControl.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -137,7 +142,6 @@
 				92E520B7271DC4F300C5B960 /* LaunchScreen.storyboard */,
 				92E520BA271DC4F300C5B960 /* Info.plist */,
 				92E520B2271DC4EE00C5B960 /* CoolMessenger.xcdatamodeld */,
-				922C345D27205EAE00DA7213 /* ViewBtnStack.swift */,
 			);
 			path = CoolMessenger;
 			sourceTree = "<group>";
@@ -171,7 +175,6 @@
 			children = (
 				92E520AD271DC4EE00C5B960 /* HelloVC.swift */,
 				9246FA5127218E2B0090C8D5 /* SignUpVC.swift */,
-				9246FA532721A8CB0090C8D5 /* OneLineTF.swift */,
 				9246FA5727283E4F0090C8D5 /* LoginVC.swift */,
 				9246FA5927286CDB0090C8D5 /* SetupProfileVC.swift */,
 			);
@@ -181,6 +184,9 @@
 		92E520E4272042DA00C5B960 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				9246FA5B272945100090C8D5 /* AddPhotoView .swift */,
+				9246FA532721A8CB0090C8D5 /* OneLineTF.swift */,
+				922C345D27205EAE00DA7213 /* ViewBtnStack.swift */,
 				922C345C27204A4200DA7213 /* UIKit */,
 			);
 			path = Extensions;
@@ -322,7 +328,9 @@
 				922C345B272043B700DA7213 /* UIImageSettings.swift in Sources */,
 				9246FA5A27286CDB0090C8D5 /* SetupProfileVC.swift in Sources */,
 				922C3459272043A800DA7213 /* UIFontSettings.swift in Sources */,
+				9246FA5C272945100090C8D5 /* AddPhotoView .swift in Sources */,
 				92E520AE271DC4EE00C5B960 /* HelloVC.swift in Sources */,
+				9246FA5E27294DDF0090C8D5 /* UISegmentedControl.swift in Sources */,
 				92E520DF272027CD00C5B960 /* UIBtnSettings.swift in Sources */,
 				92E520AA271DC4EE00C5B960 /* AppDelegate.swift in Sources */,
 				922C345E27205EAE00DA7213 /* ViewBtnStack.swift in Sources */,
