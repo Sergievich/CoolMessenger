@@ -10,7 +10,7 @@ import UIKit
 
 class SetupProfileVC: UIViewController{
     
-    let fillImageView = AddPhotoView()
+    let fullImageView = AddPhotoView()
     
     let welcomeLbl = UILabel(text: "Set up Profile", font: .avenir26())
     
@@ -28,7 +28,7 @@ class SetupProfileVC: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .orange
+        view.backgroundColor = .systemCyan
         
         setupConstraints()
     }
@@ -47,24 +47,33 @@ class SetupProfileVC: UIViewController{
         
         let sexStackView = UIStackView(arrangedSubviews: [sexLbl, sexSegmented])
         sexStackView.axis = .vertical
-        sexStackView.spacing = 0
+        sexStackView.spacing = 10
         
-        let stackView = UIStackView(arrangedSubviews: [fullNameStackView, searchingStackView, sexStackView])
+        let stackView = UIStackView(arrangedSubviews: [fullNameStackView, searchingStackView, sexStackView,  goToChatsBtn])
+        stackView.axis = .vertical
+        stackView.spacing = 40
+        goToChatsBtn.heightAnchor.constraint(equalToConstant: 60).isActive = true
+        
         stackView.translatesAutoresizingMaskIntoConstraints = false
+        fullImageView.translatesAutoresizingMaskIntoConstraints = false
+        welcomeLbl.translatesAutoresizingMaskIntoConstraints = false
         
-        fillImageView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(welcomeLbl)
+        view.addSubview(stackView)
+        view.addSubview(fullImageView)
         
-        view.addSubview(fillImageView)
         NSLayoutConstraint.activate([
-            welcomeLbl.topAnchor.constraint(equalTo: view.topAnchor, constant: 100),
+            welcomeLbl.topAnchor.constraint(equalTo: view.topAnchor, constant: 160),
             welcomeLbl.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             
-            fillImageView.topAnchor.constraint(equalTo: welcomeLbl.topAnchor, constant: 40),
-            fillImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            fullImageView.topAnchor.constraint(equalTo: welcomeLbl.bottomAnchor, constant: 40),
+            fullImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             
-//            stackView.topAnchor.constraint(equalTo: fillImageView.bottomAnchor, constant: 40),
-//            stackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40),
-//            stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -40)
+            stackView.topAnchor.constraint(equalTo: fullImageView.bottomAnchor, constant: 40),
+            stackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40),
+            stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -40),
+            
+            
         ])
         
     }
