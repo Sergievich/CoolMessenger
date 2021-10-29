@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 class SignUpVC: UIViewController {
-    
+     
     let welcomLbl = UILabel(text: "Hello there", font: .avenir26())
     
     let emailLbl = UILabel(text: "Email")
@@ -41,6 +41,7 @@ class SignUpVC: UIViewController {
     }
     
 }
+
    //MARK: Setup constraints
 extension SignUpVC {
 private func setupConstraints(){
