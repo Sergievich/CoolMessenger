@@ -36,7 +36,11 @@ class SignUpVC: UIViewController {
         setupConstraints()
         passwordTF.isSecureTextEntry = true
         confirmPassTF.isSecureTextEntry = true
+        signUpBtn.addTarget(self, action: #selector(signUpBtnTapped), for: .touchUpInside)
         
+    }
+    
+    @objc func signUpBtnTapped(){
         
     }
     

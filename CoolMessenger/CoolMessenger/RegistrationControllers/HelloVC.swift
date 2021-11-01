@@ -10,6 +10,9 @@ import SwiftUI
 
 class HelloVC: UIViewController {
     
+    let signUpVC = SignUpVC()
+    let loginVC = LoginVC()
+    
     let screenSize: CGRect = UIScreen.main.bounds
     
     
@@ -31,13 +34,24 @@ class HelloVC: UIViewController {
         setupConstraints()
         view.backgroundColor = .systemCyan
         googleBtn.customGoogleBtn()
+        emailBtn.addTarget(self, action: #selector(emailBtnTapped), for: .touchUpInside)
+        loginBtn.addTarget(self, action: #selector(loginBtnTapped), for: .touchUpInside)
       
+    }
+    @objc func emailBtnTapped(){
+        present(signUpVC, animated: true, completion: nil)
+    }
+    
+    @objc func loginBtnTapped(){
+        present(loginVC, animated: true, completion: nil)
+    }
+    
+    @objc func googleBtnTapped(){
+        
     }
 
     
     private func setupConstraints(){
-        
-        
         
         logoImage.translatesAutoresizingMaskIntoConstraints = false
         
